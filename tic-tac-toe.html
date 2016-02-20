@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic-Tac-Toe</title>
+</head>
+<style>
+	table{
+		margin: 0 auto;
+	}
+	td {
+		height: 100px;
+		width: 100px;
+		border: 1px solid blue;
+	}
+
+	#one, #four, #seven{
+		border-top: 0px;
+		border-left: 0;
+	}
+
+	#two, #five, #eight{
+		border-top: 0;
+		border-left: 0;
+		border-right:0;
+	}
+	#three, #six, #nine{
+		border-top: 0;
+		border-right:0;
+	}
+
+
+	
+</style>
+<body>
+	<table>
+		<theading>
+			<tr>
+				<th></th>
+				<th>Tic Tac Toe</th>
+				<th></th>
+			</tr>
+		</theading>
+		<tbody>
+			<tr>
+				<td id="one"></td>
+				<td id="two"></td>
+				<td id="three"></td>
+			</tr>
+			
+			<tr>
+				<td id="four"></td>
+				<td id="five"></td>
+				<td id="six"></td>
+			</tr>
+			
+			<tr>
+				<td id="seven"></td>
+				<td id="eight"></td>
+				<td id="nine"></td>
+			</tr>
+			
+		</tbody>
+	</table>
+</body>
+</html>
