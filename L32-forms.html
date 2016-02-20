@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WDB Forms</title>
+</head>
+<body>
+<form>
+	<label for="fname">First Name: </label>
+	<label for="lname">Last Name: </label>
+	<input type="text" placeholder="John" name="fname" id="first" required>
+	<input type="text" placeholder="Smith" name="lname" id="last" required>
+	<br>
+	<label for="male">Male</label>
+	<input type="radio" name="gender" id="male" value="Male">
+	<label for="female">Female</label>
+	<input type="radio" name="gender" id="female" value="Female">
+	<br>
+	<label for="email">Email</label>
+	<input type="email" id="email" name="email" required placeholder="your email">
+	<label for="password">Password</label>
+	<input type="password" id="password" name="password" required pattern=".{4,8}">	
+	<br>
+	<label for="month">Birthday</label>
+	<select name="month" id="month">
+		<option value="month">Month</option>
+		<option value="6">June</option>
+		<option value="7">July</option>
+		<option value="8">August</option>
+	</select>
+	
+	<select name="Month" id="month">
+		<option value="day">Day</option>
+		<option value=4>04</option>
+		<option value=5>05</option>
+		<option value=6>06</option>
+	</select>
+		
+	<select name="Year" id="year">
+		<option value="year">Year</option>
+		<option value=1963>1963</option>
+		<option value=1964>1964</option>
+		<option value=1965>1965</option>
+	</select>
+	<br>
+	<label for="terms">I agree to the terms and conditions </label>
+	<input type="checkbox" id="terms" required>
+	<br>
+	<input type="Submit">
+</form>
+	
+</body>
+</html>
