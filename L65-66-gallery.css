@@ -1,0 +1,49 @@
+
+
+/*div{
+	border: 1px solid yellow;
+}*/
+
+/*.content{
+	color:white;
+	text-align: center;
+}
+
+.red {
+	background: red;
+	height: 100px;
+}
+
+.blue{
+ background: blue;
+ height: 100px;
+} */
+    body { 
+			padding-top: 70px;
+			background-color:#ff00e2;
+		}
+    .jumbotron {
+      color: #2c3e50;
+      background: #ecf0f1;
+
+    }
+    .navbar-inverse {
+      background: #2c3e50;
+      color: white;
+    }
+    .navbar-inverse .navbar-brand, .navbar-inverse a{
+      color:white;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+      color: white;
+    } 
+img {
+	width: 100%;
+}
+div {
+	border: 1px solid black;
+	height: 100px;
+}
+body {
+	
+}
